@@ -31,7 +31,7 @@ body {
 .dino {
   position: absolute;
   bottom: 0;
-  background-image: url(dino1.gif);
+  background-image: url('dino1.gif');
   width: 280px;
   height: 130px;
   background-size: 280px;
@@ -42,7 +42,7 @@ body {
 .cacto {
   position: absolute;
   bottom: 0;
-  background-image: url(cacto.png);
+  background-image: url('cacto.png');
   width: 35px;
   height: 70px;
   background-size: 35px;
@@ -88,7 +88,7 @@ body {
 .passaro {
   position: absolute;
   bottom: 0;
-  background-image: url(passaro.gif);
+  background-image: url('passaro.gif');
   background-size: 200px;
   background-repeat: no-repeat;
   transform: scaleX(-1);
