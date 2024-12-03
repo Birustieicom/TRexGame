@@ -32,7 +32,7 @@ setInterval(() => {
   );
 
   if (cactoLeft > 40 && cactoLeft < 270 && dinoBottom <= 50 && !alreadyJump) {
-    alert(`Parabéns! Seu score foi: ${count} &#128516;`);
+    alert(`Parabéns! Seu score foi: ${count} ツ`);
     count = 0;
   }
 
