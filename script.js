@@ -32,7 +32,7 @@ setInterval(() => {
   );
 
   if (cactoLeft > 40 && cactoLeft < 270 && dinoBottom <= 50 && !alreadyJump) {
-    alert(`Perdeu! Seu score foi: ${count}`);
+    alert(`Parabéns! Seu score foi: ${count} &#128516;`);
     count = 0;
   }
 
@@ -40,5 +40,4 @@ setInterval(() => {
   score.innerHTML = `SCORE: ${count}`;
 }, 10);
 
-// Movimento contínuo do pássaro (somente visual)
 passaro.style.animation = "moveLeft 5s linear infinite";
