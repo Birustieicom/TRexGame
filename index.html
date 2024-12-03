@@ -7,15 +7,48 @@
   <title>T-Rex Game</title>
   <link rel="website icon" type="png" href="icon.png">
   <style>
-     img {
-        width: 640px;
-     }
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f4f4f4;
+      font-family: Arial, sans-serif;
+    }
+
+    img {
+      width: 640px;
+      margin-bottom: 20px;
+    }
+
+    button {
+      background-color: #808080;
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      font-size: 18px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #696969;
+    }
+
+    button:active {
+      background-color: #505050;
+    }
+
+    a {
+      text-decoration: none;
+    }
   </style>
 </head>
 <body>
-
    <img src="logot.png" alt="Logo com nome e personagem do jogo">
    <a href="jogo.html"><button>Jogar</button></a>
-
 </body>
 </html>
