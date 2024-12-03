@@ -84,3 +84,17 @@ body {
     bottom: 0;
   }
 }
+
+.passaro {
+  position: absolute;
+  top: 50px;
+  left: 800px;
+  width: 40px;
+  height: 30px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.passaro {
+  animation: moveLeft 5s linear infinite;
+}
