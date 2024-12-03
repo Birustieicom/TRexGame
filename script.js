@@ -1,5 +1,6 @@
 const dino = document.querySelector(".dino");
 const cacto = document.querySelector(".cacto");
+const passaro = document.querySelector(".passaro");
 const score = document.querySelector(".score");
 let alreadyJump = false;
 let count = 0;
@@ -37,5 +38,7 @@ setInterval(() => {
 
   count++;
   score.innerHTML = `SCORE: ${count}`;
-
 }, 10);
+
+// Movimento contínuo do pássaro (somente visual)
+passaro.style.animation = "moveLeft 5s linear infinite";
