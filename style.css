@@ -87,12 +87,15 @@ body {
 
 .passaro {
   position: absolute;
+  bottom: 0;
+  background-image: url(passaro.gif);
+  background-size: 200px;
+  background-repeat: no-repeat;
+  transform: scaleX(-1);
   top: 50px;
   left: 800px;
   width: 40px;
   height: 30px;
-  background-color: red;
-  border-radius: 50%;
 }
 
 .passaro {
